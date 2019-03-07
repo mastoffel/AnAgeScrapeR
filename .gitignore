@@ -2,4 +2,7 @@ life_history_data.zip
 *.Rproj
 /*.Rproj
 *.Rhistory
+.gitignore
+.Rbuildignore
+*.Rproj.user
 
