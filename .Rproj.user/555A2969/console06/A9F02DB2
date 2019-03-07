@@ -1,241 +1,0 @@
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR[?1034h________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR[?1034h________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR[?1034h________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR[?1034h________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR[?1034h________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR[?1034h________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR[?1034h________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR[?1034h________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR[?1034h________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => [K| => [K| => echo "#AnAgeScrapeR' <[K>>>[K README.md
-| => 
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR[?1034h________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => getwd
-bash: getwd: command not found
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => pwd
-/Users/martin/Dropbox/projects/Rpackages/AnAgeScrapeR
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => git init
-Initialized empty Git repository in /Users/martin/Dropbox/projects/Rpackages/AnAgeScrapeR/.git/
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => git commit -m "ni[K[Kinitial version"
-On branch master
-
-Initial commit
-
-Untracked files:
-	[31m.Rbuildignore[m
-	[31m.Rhistory[m
-	[31m.Rproj.user/[m
-	[31mAnAgeScrapeR.Rproj[m
-	[31mDESCRIPTION[m
-	[31mNAMESPACE[m
-	[31mR/[m
-	[31mREADME.Rmd[m
-	[31mREADME.md[m
-	[31mdata/[m
-	[31mlife_history_data.zip[m
-	[31mman/[m
-
-nothing added to commit but untracked files present
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => devtools::gut[K[Kit[K[K[K[K[K[K[K[K[K[K[K[K[Kecho gi[K[K.gitignore[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Knano g[K.gitignore
->]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => git add .
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => git commit -M 2[K[K[K [Km "initial commit"
-[master (root-commit) 37f945b] initial commit
- 57 files changed, 1121 insertions(+)
- create mode 100644 .Rbuildignore
- create mode 100644 .Rproj.user/555A2969/console06/A9F02DB2
- create mode 100644 .Rproj.user/555A2969/console06/A9F02DB2.env
- create mode 100644 .Rproj.user/555A2969/console06/INDEX001
- create mode 100644 .Rproj.user/555A2969/cpp-definition-cache
- create mode 100644 .Rproj.user/555A2969/pcs/debug-breakpoints.pper
- create mode 100644 .Rproj.user/555A2969/pcs/files-pane.pper
- create mode 100644 .Rproj.user/555A2969/pcs/source-pane.pper
- create mode 100644 .Rproj.user/555A2969/pcs/windowlayoutstate.pper
- create mode 100644 .Rproj.user/555A2969/pcs/workbench-pane.pper
- create mode 100644 .Rproj.user/555A2969/persistent-state
- create mode 100644 .Rproj.user/555A2969/rmd-outputs
- create mode 100644 .Rproj.user/555A2969/saved_source_markers
- create mode 100644 .Rproj.user/555A2969/sources/prop/123A94FE
- create mode 100644 .Rproj.user/555A2969/sources/prop/405B95F1
- create mode 100644 .Rproj.user/555A2969/sources/prop/45E29E69
- create mode 100644 .Rproj.user/555A2969/sources/prop/5ABFF2B
- create mode 100644 .Rproj.user/555A2969/sources/prop/72706D80
- create mode 100644 .Rproj.user/555A2969/sources/prop/B234AF76
- create mode 100644 .Rproj.user/555A2969/sources/prop/D5426FE
- create mode 100644 .Rproj.user/555A2969/sources/prop/D652C8E9
- create mode 100644 .Rproj.user/555A2969/sources/prop/INDEX
- create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/39DE7264-contents
- create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/4EF8F1CE
- create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/4EF8F1CE-contents
- create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/6B138FDB
- create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/6B138FDB-contents
- create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/B916004A
- create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/B916004A-contents
- create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/C63D8675-contents
- create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/C6CEB1C1
- create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/C6CEB1C1-contents
- create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/D36437D8
- create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/D36437D8-contents
- create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/E73BAF3A
- create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/E73BAF3A-contents
- create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/ED9429BC
- create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/ED9429BC-contents
- create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/F64D3972
- create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/F64D3972-contents
- create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/lock_file
- create mode 100644 .Rproj.user/555A2969/viewer-cache/7E3C448A.Rdata
- create mode 100644 .Rproj.user/shared/notebooks/F2FDB9B3-README/1/555A2969B058CD33/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/F2FDB9B3-README/1/s/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/F2FDB9B3-README/1/s/csetup_chunk/000002.csv
- create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
- create mode 100644 .Rproj.user/shared/notebooks/paths
- create mode 100644 .gitignore
- create mode 100644 DESCRIPTION
- create mode 100644 NAMESPACE
- create mode 100644 R/AnAge_variables.R
- create mode 100644 R/scrape_AnAge.R
- create mode 100644 README.Rmd
- create mode 100644 README.md
- create mode 100644 data/AnAge_variables.rda
- create mode 100644 man/AnAge_variables.Rd
- create mode 100644 man/scrape_AnAge.Rd
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => git push origin master[C[C[C[C[C[C[C[C[Ccommit -m "initial commit"[C[C[C[C[C[C "2"
-On branch master
-Changes not staged for commit:
-	[31mmodified:   .Rproj.user/555A2969/console06/A9F02DB2[m
-	[31mmodified:   .Rproj.user/555A2969/sources/prop/INDEX[m
-	[31mmodified:   .gitignore[m
-
-Untracked files:
-	[31m.Rproj.user/555A2969/sources/prop/AE702DB1[m
-	[31m.Rproj.user/555A2969/sources/s-B058CD33/51FDC613[m
-	[31m.Rproj.user/555A2969/sources/s-B058CD33/51FDC613-contents[m
-
-no changes added to commit
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => git commit -m "initial commit 2"[2P"[C[C[C[C[C[C[C[C[Cadd .[K
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => git add .commit -m "initial commit 2"
-[master e79162f] initial commit 2
- 6 files changed, 114 insertions(+), 1 deletion(-)
- create mode 100644 .Rproj.user/555A2969/sources/prop/AE702DB1
- create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/51FDC613
- create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/51FDC613-contents
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => git push orign[K[Kgin master
-fatal: 'origin' does not appear to be a git repository
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => git remote add origin git@github.com:mastoffel/AnAgeScrapeR.git
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => git remote add origin git@github.com:mastoffel/AnAgeScrapeR.git[C[C[C[C[C[C[C[C[Cpush origin master[K[K[K[K[K[K[K[K[K[K[K[K[K[K.z [K[K[K-z [K[Kz[Ku origin master
-
-
-^[  ^C
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => git push -u origin master
-^C
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => git status
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/555A2969/console06/A9F02DB2[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => git remote
-origin
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => git gt[Kit remote show origin
-git: 'git' is not a git command. See 'git --help'.
-
-Did you mean this?
-	init
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => git git remote show origin[1P[1P[1P[1P
-^[  ^X  ^C
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => gut re[K[K[K[K[Kit remote -v
-origin	git@github.com:mastoffel/AnAgeScrapeR.git (fetch)
-origin	git@github.com:mastoffel/AnAgeScrapeR.git (push)
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => git push -u origin master
-ssh: connect to host github.com port 22: Operation timed out
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => ssh -T git@github.com
-^[  ^X
-^C
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => git config --local -e
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => git -[Kpush -u origin master
-fatal: unable to access '//github.com:mastoffel/AnAgeScrapeR.git/': <url> malformed
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => git push -u origin master
-fatal: unable to access '//github.com/mastoffel/AnAgeScrapeR.git/': <url> malformed
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => git push -u origin master
-Counting objects: 80, done.
-Delta compression using up to 8 threads.
-Compressing objects:   1% (1/68)   Compressing objects:   2% (2/68)   Compressing objects:   4% (3/68)   Compressing objects:   5% (4/68)   Compressing objects:   7% (5/68)   Compressing objects:   8% (6/68)   Compressing objects:  10% (7/68)   Compressing objects:  11% (8/68)   Compressing objects:  13% (9/68)   Compressing objects:  14% (10/68)   Compressing objects:  16% (11/68)   Compressing objects:  17% (12/68)   Compressing objects:  19% (13/68)   Compressing objects:  20% (14/68)   Compressing objects:  22% (15/68)   Compressing objects:  23% (16/68)   Compressing objects:  25% (17/68)   Compressing objects:  26% (18/68)   Compressing objects:  27% (19/68)   Compressing objects:  29% (20/68)   Compressing objects:  30% (21/68)   Compressing objects:  32% (22/68)   Compressing objects:  33% (23/68)   Compressing objects:  35% (24/68)   Compressing objects:  36% (25/68)   Compressing objects:  38% (26/68)   Compressing objects:  39% (27/68)   Compressing objects:  41% (28/68)   Compressing objects:  42% (29/68)   Compressing objects:  44% (30/68)   Compressing objects:  45% (31/68)   Compressing objects:  47% (32/68)   Compressing objects:  48% (33/68)   Compressing objects:  50% (34/68)   Compressing objects:  51% (35/68)   Compressing objects:  52% (36/68)   Compressing objects:  54% (37/68)   Compressing objects:  55% (38/68)   Compressing objects:  57% (39/68)   Compressing objects:  58% (40/68)   Compressing objects:  60% (41/68)   Compressing objects:  61% (42/68)   Compressing objects:  63% (43/68)   Compressing objects:  64% (44/68)   Compressing objects:  66% (45/68)   Compressing objects:  67% (46/68)   Compressing objects:  69% (47/68)   Compressing objects:  70% (48/68)   Compressing objects:  72% (49/68)   Compressing objects:  73% (50/68)   Compressing objects:  75% (51/68)   Compressing objects:  76% (52/68)   Compressing objects:  77% (53/68)   Compressing objects:  79% (54/68)   Compressing objects:  80% (55/68)   Compressing objects:  82% (56/68)   Compressing objects:  83% (57/68)   Compressing objects:  85% (58/68)   Compressing objects:  86% (59/68)   Compressing objects:  88% (60/68)   Compressing objects:  89% (61/68)   Compressing objects:  91% (62/68)   Compressing objects:  92% (63/68)   Compressing objects:  94% (64/68)   Compressing objects:  95% (65/68)   Compressing objects:  97% (66/68)   Compressing objects:  98% (67/68)   Compressing objects: 100% (68/68)   Compressing objects: 100% (68/68), done.
-Writing objects:   1% (1/80)   Writing objects:   2% (2/80)   Writing objects:   3% (3/80)   Writing objects:   5% (4/80)   Writing objects:   6% (5/80)   Writing objects:   7% (6/80)   Writing objects:   8% (7/80)   Writing objects:  10% (8/80)   Writing objects:  11% (9/80)   Writing objects:  12% (10/80)   Writing objects:  13% (11/80)   Writing objects:  15% (12/80)   Writing objects:  16% (13/80)   Writing objects:  17% (14/80)   Writing objects:  18% (15/80)   Writing objects:  20% (16/80)   Writing objects:  21% (17/80)   Writing objects:  22% (18/80)   Writing objects:  23% (19/80)   Writing objects:  25% (20/80)   Writing objects:  26% (21/80)   Writing objects:  27% (22/80)   Writing objects:  28% (23/80)   Writing objects:  30% (24/80)   Writing objects:  31% (25/80)   Writing objects:  32% (26/80)   Writing objects:  33% (27/80)   Writing objects:  35% (28/80)   Writing objects:  36% (29/80)   Writing objects:  37% (30/80)   Writing objects:  38% (31/80)   Writing objects:  40% (32/80)   Writing objects:  41% (33/80)   Writing objects:  42% (34/80)   Writing objects:  43% (35/80)   Writing objects:  45% (36/80)   Writing objects:  48% (39/80)   Writing objects:  50% (40/80)   Writing objects:  51% (41/80)   Writing objects:  52% (42/80)   Writing objects:  53% (43/80)   Writing objects:  55% (44/80)   Writing objects:  56% (45/80)   Writing objects:  57% (46/80)   Writing objects:  58% (47/80)   Writing objects:  60% (48/80)   Writing objects:  61% (49/80)   Writing objects:  62% (50/80)   Writing objects:  63% (51/80)   Writing objects:  65% (52/80)   Writing objects:  66% (53/80)   Writing objects:  67% (54/80)   Writing objects:  68% (55/80)   Writing objects:  70% (56/80)   Writing objects:  71% (57/80)   Writing objects:  72% (58/80)   Writing objects:  73% (59/80)   Writing objects:  75% (60/80)   Writing objects:  76% (61/80)   Writing objects:  77% (62/80)   Writing objects:  78% (63/80)   Writing objects:  80% (64/80)   Writing objects:  81% (65/80)   Writing objects:  82% (66/80)   Writing objects:  83% (67/80)   Writing objects:  85% (68/80)   Writing objects:  86% (69/80)   Writing objects:  87% (70/80)   Writing objects:  88% (71/80)   Writing objects:  90% (72/80)   Writing objects:  91% (73/80)   Writing objects:  92% (74/80)   Writing objects:  93% (75/80)   Writing objects:  95% (76/80)   Writing objects:  96% (77/80)   Writing objects:  97% (78/80)   Writing objects:  98% (79/80)   Writing objects: 100% (80/80)   Writing objects: 100% (80/80), 177.71 KiB | 0 bytes/s, done.
-Total 80 (delta 12), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/12)   [Kremote: Resolving deltas:   8% (1/12)   [Kremote: Resolving deltas:  16% (2/12)   [Kremote: Resolving deltas:  25% (3/12)   [Kremote: Resolving deltas:  33% (4/12)   [Kremote: Resolving deltas:  41% (5/12)   [Kremote: Resolving deltas:  50% (6/12)   [Kremote: Resolving deltas: 100% (12/12)   [Kremote: Resolving deltas: 100% (12/12), done.[K
-To https://github.com/mastoffel/AnAgeScrapeR.git
- * [new branch]      master -> master
-Branch master set up to track remote branch master from origin.
-]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
-| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
-| => gut [K[K[Kut[K[Kui[K[Kit add .
