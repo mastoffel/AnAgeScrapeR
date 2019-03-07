@@ -60,3 +60,83 @@ nothing added to commit but untracked files present
 >]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
 | ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
 | => git add .
+]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
+| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
+| => git commit -M 2[K[K[K [Km "initial commit"
+[master (root-commit) 37f945b] initial commit
+ 57 files changed, 1121 insertions(+)
+ create mode 100644 .Rbuildignore
+ create mode 100644 .Rproj.user/555A2969/console06/A9F02DB2
+ create mode 100644 .Rproj.user/555A2969/console06/A9F02DB2.env
+ create mode 100644 .Rproj.user/555A2969/console06/INDEX001
+ create mode 100644 .Rproj.user/555A2969/cpp-definition-cache
+ create mode 100644 .Rproj.user/555A2969/pcs/debug-breakpoints.pper
+ create mode 100644 .Rproj.user/555A2969/pcs/files-pane.pper
+ create mode 100644 .Rproj.user/555A2969/pcs/source-pane.pper
+ create mode 100644 .Rproj.user/555A2969/pcs/windowlayoutstate.pper
+ create mode 100644 .Rproj.user/555A2969/pcs/workbench-pane.pper
+ create mode 100644 .Rproj.user/555A2969/persistent-state
+ create mode 100644 .Rproj.user/555A2969/rmd-outputs
+ create mode 100644 .Rproj.user/555A2969/saved_source_markers
+ create mode 100644 .Rproj.user/555A2969/sources/prop/123A94FE
+ create mode 100644 .Rproj.user/555A2969/sources/prop/405B95F1
+ create mode 100644 .Rproj.user/555A2969/sources/prop/45E29E69
+ create mode 100644 .Rproj.user/555A2969/sources/prop/5ABFF2B
+ create mode 100644 .Rproj.user/555A2969/sources/prop/72706D80
+ create mode 100644 .Rproj.user/555A2969/sources/prop/B234AF76
+ create mode 100644 .Rproj.user/555A2969/sources/prop/D5426FE
+ create mode 100644 .Rproj.user/555A2969/sources/prop/D652C8E9
+ create mode 100644 .Rproj.user/555A2969/sources/prop/INDEX
+ create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/39DE7264-contents
+ create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/4EF8F1CE
+ create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/4EF8F1CE-contents
+ create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/6B138FDB
+ create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/6B138FDB-contents
+ create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/B916004A
+ create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/B916004A-contents
+ create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/C63D8675-contents
+ create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/C6CEB1C1
+ create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/C6CEB1C1-contents
+ create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/D36437D8
+ create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/D36437D8-contents
+ create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/E73BAF3A
+ create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/E73BAF3A-contents
+ create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/ED9429BC
+ create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/ED9429BC-contents
+ create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/F64D3972
+ create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/F64D3972-contents
+ create mode 100644 .Rproj.user/555A2969/sources/s-B058CD33/lock_file
+ create mode 100644 .Rproj.user/555A2969/viewer-cache/7E3C448A.Rdata
+ create mode 100644 .Rproj.user/shared/notebooks/F2FDB9B3-README/1/555A2969B058CD33/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/F2FDB9B3-README/1/s/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/F2FDB9B3-README/1/s/csetup_chunk/000002.csv
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 .gitignore
+ create mode 100644 DESCRIPTION
+ create mode 100644 NAMESPACE
+ create mode 100644 R/AnAge_variables.R
+ create mode 100644 R/scrape_AnAge.R
+ create mode 100644 README.Rmd
+ create mode 100644 README.md
+ create mode 100644 data/AnAge_variables.rda
+ create mode 100644 man/AnAge_variables.Rd
+ create mode 100644 man/scrape_AnAge.Rd
+]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
+| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
+| => git push origin master[C[C[C[C[C[C[C[C[Ccommit -m "initial commit"[C[C[C[C[C[C "2"
+On branch master
+Changes not staged for commit:
+	[31mmodified:   .Rproj.user/555A2969/console06/A9F02DB2[m
+	[31mmodified:   .Rproj.user/555A2969/sources/prop/INDEX[m
+	[31mmodified:   .gitignore[m
+
+Untracked files:
+	[31m.Rproj.user/555A2969/sources/prop/AE702DB1[m
+	[31m.Rproj.user/555A2969/sources/s-B058CD33/51FDC613[m
+	[31m.Rproj.user/555A2969/sources/s-B058CD33/51FDC613-contents[m
+
+no changes added to commit
+]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
+| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
+| => git commit -m "initial commit 2"[2P"[C[C[C[C[C[C[C[C[Cadd .[K
