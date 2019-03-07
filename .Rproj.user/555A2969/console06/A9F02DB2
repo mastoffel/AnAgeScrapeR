@@ -1,0 +1,62 @@
+]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR[?1034h________________________________________________________________________________
+| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
+]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR[?1034h________________________________________________________________________________
+| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
+]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR[?1034h________________________________________________________________________________
+| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
+]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR[?1034h________________________________________________________________________________
+| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
+]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR[?1034h________________________________________________________________________________
+| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
+]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR[?1034h________________________________________________________________________________
+| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
+]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR[?1034h________________________________________________________________________________
+| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
+]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR[?1034h________________________________________________________________________________
+| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
+]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR[?1034h________________________________________________________________________________
+| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
+| => [K| => [K| => echo "#AnAgeScrapeR' <[K>>>[K README.md
+| => 
+]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
+| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
+]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR[?1034h________________________________________________________________________________
+| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
+| => getwd
+bash: getwd: command not found
+]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
+| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
+| => pwd
+/Users/martin/Dropbox/projects/Rpackages/AnAgeScrapeR
+]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
+| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
+| => git init
+Initialized empty Git repository in /Users/martin/Dropbox/projects/Rpackages/AnAgeScrapeR/.git/
+]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
+| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
+| => git commit -m "ni[K[Kinitial version"
+On branch master
+
+Initial commit
+
+Untracked files:
+	[31m.Rbuildignore[m
+	[31m.Rhistory[m
+	[31m.Rproj.user/[m
+	[31mAnAgeScrapeR.Rproj[m
+	[31mDESCRIPTION[m
+	[31mNAMESPACE[m
+	[31mR/[m
+	[31mREADME.Rmd[m
+	[31mREADME.md[m
+	[31mdata/[m
+	[31mlife_history_data.zip[m
+	[31mman/[m
+
+nothing added to commit but untracked files present
+]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
+| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
+| => devtools::gut[K[Kit[K[K[K[K[K[K[K[K[K[K[K[K[Kecho gi[K[K.gitignore[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Knano g[K.gitignore
+>]0;~/Dropbox/projects/Rpackages/AnAgeScrapeR________________________________________________________________________________
+| ~/Dropbox/projects/Rpackages/AnAgeScrapeR @ Martins-MacBook-Pro (martin) 
+| => git add .

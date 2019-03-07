@@ -1,0 +1,19 @@
+Package: AnAgeScrapeR
+Type: Package
+Title: Scraping data from the AnAge database
+Version: 0.1.0
+Depends: R (>= 3.2.1)
+Author: Martin A. Stoffel
+Maintainer: The package maintainer <martin.adam.stoffel@gmail.com>
+Description: Scrape data from the AnAge database based on species names.
+License: GPL (>= 2)
+Encoding: UTF-8
+Imports: 
+    methods,
+    stats,
+    dplyr,
+    readr,
+    stringr,
+    tidyr
+LazyData: true
+RoxygenNote: 6.1.1
