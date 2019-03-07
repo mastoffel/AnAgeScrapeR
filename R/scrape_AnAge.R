@@ -98,23 +98,24 @@ scrape_AnAge <- function(latin_name = NULL,  vars = NULL, name_sep = " ",
     #
     dat_full <- tibble(species_latin = species_name)
 
-    dat_exists <- dat %>%
+    dat_out <- dat %>%
         tidyr::unite(genus, species, col = "genus_species", sep = name_sep) %>%
         dplyr::mutate(genus_species = tolower(genus_species)) %>%
         dplyr::filter(genus_species %in% species_name) %>%
         dplyr::select(genus_species, !!traits) %>%
         dplyr::rename(species_latin = genus_species)
 
-    if (nrow(dat) < length(species_name)) {
-        dat_out <- dplyr::full_join(dat_full, dat_exists, by = "species_latin")
+    if (nrow(dat_out) < length(species_name)) {
+        dat_out <- dplyr::full_join(dat_full, dat_out , by = "species_latin")
     }
 
+    dat_out
 
-    dat %>%
-            tidyr::unite(genus, species, col = "genus_species", sep = name_sep) %>%
-            dplyr::mutate(genus_species = tolower(genus_species)) %>%
-            dplyr::filter(genus_species %in% species_name) %>%
-            dplyr::select(genus_species, !!vars)
+    # dat %>%
+    #         tidyr::unite(genus, species, col = "genus_species", sep = name_sep) %>%
+    #         dplyr::mutate(genus_species = tolower(genus_species)) %>%
+    #         dplyr::filter(genus_species %in% species_name) %>%
+    #         dplyr::select(genus_species, !!vars)
 
 
 }
