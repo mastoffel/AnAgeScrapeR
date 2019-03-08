@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 
 AnAgeScrapeR lets you extract data for one or more species from the AnAge database:
 [http://genomics.senescence.info/species/](http://genomics.senescence.info/species/). The 
-official citation is:
+official citation is for the data is:
 
 Tacutu, R., Thornton, D., Johnson, E., Budovsky, A., Barardo, D., Craig, T., Diana, E., Lehmann, G., Toren, D., Wang, J., Fraifeld, V. E., de Magalhaes, J. P. (2018) "Human Ageing Genomic Resources: new and updated databases." Nucleic Acids Research 46(D1):D1083-D1090.
 

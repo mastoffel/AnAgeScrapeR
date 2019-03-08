@@ -3,7 +3,7 @@
 AnAgeScrapeR
 ============
 
-AnAgeScrapeR lets you extract data for one or more species from the AnAge database: <http://genomics.senescence.info/species/>. The official citation is:
+AnAgeScrapeR lets you extract data for one or more species from the AnAge database: <http://genomics.senescence.info/species/>. The official citation is for the data is:
 
 Tacutu, R., Thornton, D., Johnson, E., Budovsky, A., Barardo, D., Craig, T., Diana, E., Lehmann, G., Toren, D., Wang, J., Fraifeld, V. E., de Magalhaes, J. P. (2018) "Human Ageing Genomic Resources: new and updated databases." Nucleic Acids Research 46(D1):D1083-D1090.
 
@@ -29,7 +29,7 @@ dat <- scrape_AnAge(latin_name = species,
                     vars = c("maximum_longevity_yrs","female_maturity_days"))
 dat
 #> # A tibble: 2 x 3
-#>   genus_species     maximum_longevity_yrs female_maturity_days
+#>   species_latin     maximum_longevity_yrs female_maturity_days
 #>   <chr>             <chr>                 <chr>               
 #> 1 sterna paradisaea 34                    1095                
 #> 2 felis catus       30                    289
